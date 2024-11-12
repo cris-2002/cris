@@ -70,34 +70,39 @@
 
 <body>
 
- 		<div class="form-container">
-        <h2>Ubunto Server-PHP deployment</h2>
-        <form action="/submit_form" method="POST">
-            
-            <label for="name">First Name</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your first name">
+ 		<p>Ubunto Server-PHP deployment- Cristy Jean L. Goc-ong</p>
 
-            <label for="name">Middle Name</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your middle name">
+</body>
 
-             <label for="name">Last Name</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your last name">
+		<div class="container">
+			<label>Firstname:</label>
+			<input type="text" name="firstname" class="form-control">
+		</div>
 
-             <label for="name">Age</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your age">
+		<div class="container">
+			<label>Middle:</label>
+			<input type="text" name="firstname" class="form-control">
+		</div>
 
+		<div class="container">
+			<label>Lastname:</label>
+			<input type="text" name="firstname" class="form-control">
+		</div>
 
-             <label for="name">Address</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your address">
+		<div class="container">
+			<label>Age:</label>
+			<input type="text" name="firstname" class="form-control">
+		</div>
 
+		<div class="container">
+			<label>Address:</label>
+			<input type="text" name="firstname" class="form-control">
+		</div>
 
-             <label for="name">Course & Section</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your course & section">
-
-
-			<input type="submit" value="Submit">
-        </form>
-
+		<div class="container">
+			<label>Course&Section:</label>
+			<input type="text" name="firstname" class="form-control">
+		</div>
 
 </html>
 
